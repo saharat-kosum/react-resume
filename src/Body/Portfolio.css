@@ -58,9 +58,19 @@
     color: var(--whitecolor);
 }
 
+.black:hover{
+    background-color: #212121;
+    border: 1px solid white;
+}
+
 .white{
     background-color: #2374e1;
     color: #fff;
+}
+
+.white:hover{
+    border: 1px solid black;
+    background-color: #25303b;
 }
 
 @media (max-width: 1024px){
