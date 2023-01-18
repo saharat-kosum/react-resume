@@ -1,0 +1,85 @@
+.Portfolio h1{
+    margin: 30px auto 10px 25vh;
+}
+
+.portImage{
+    width: 100%
+}
+
+.Portcontainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 75%;
+    margin-left: 20vh;
+    gap: 1vh;
+}
+
+.PortCard{
+    border-radius: 20px;
+    margin-bottom: 20px;
+    min-height: 350px;
+    max-width: 400px;
+    overflow: hidden;
+    box-shadow: 0px 3px 3px 2px rgba(0, 0, 0, 0.25);
+    /* box-shadow: 0px 10px 20px 2px #b440ff; */
+}
+
+.PortCard p{
+    margin-left: 8px;
+}
+
+.footer{
+    height: 100px;
+}
+
+.Portname{
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.btncontainer{
+    display: flex;
+    gap: 0.5rem;
+    margin: 15px 20px;
+    align-items: center;
+}
+
+.btn{
+    border-radius: 10px;
+    width: 80px;
+    min-height: 40px;
+    padding: 6px 0px;
+    text-align: center;
+}
+
+.black{
+    background-color: #4a42ba;
+    /* background-color: #b440ff; */
+    color: var(--whitecolor);
+}
+
+.white{
+    background-color: #2374e1;
+    color: #fff;
+}
+
+@media (max-width: 1024px){
+    .Portcontainer{
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 7vh;
+        width: 85%;
+    }
+    .Portfolio h1{
+        margin: 30px auto 10px 10vh;
+    }
+}
+
+@media (max-width: 600px){
+    .Portcontainer{
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 2vh;
+    }
+    .Portfolio h1{
+        margin: 30px auto 10px 5vh;
+    }
+}

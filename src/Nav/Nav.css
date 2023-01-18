@@ -1,0 +1,23 @@
+nav ul{
+    display: flex;
+    justify-content: right;
+}
+
+nav{
+    height: 48px;
+
+}
+
+ul{
+    height: 100%;
+}
+
+li{
+    margin-top: 1rem;
+    margin-right: 1.3vh;
+}
+
+.resume{
+    font-weight: 600;
+    font-size: 18px;
+}
