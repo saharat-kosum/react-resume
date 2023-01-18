@@ -35,7 +35,7 @@ const Aboutme = () => {
             <h2>Backend Development</h2>
             <div className='pcontainer'>
               <p>Node JS<br/><CircleIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/></p>
-              <p>Express JS<br/><CircleIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/></p>
+              <p>Python<br/><CircleIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/></p>
               <p>MongoDB<br/><CircleIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/></p>
               <p>SQL<br/><CircleIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/></p>
             </div>
