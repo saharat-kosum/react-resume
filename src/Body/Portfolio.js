@@ -48,6 +48,30 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
+                <div className={`PortCard ${Data.theme ? 'Dark': 'Light'}`}>
+          <img className='portImage' alt='PortImage' src='https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80  ' />
+          <h2 className='Portname'>Movie Shop (Local storage)</h2>
+          <div className='btncontainer'>
+            <div className={`btn ${Data.theme ? 'black': 'white'}`}>
+              <a href="https://github.com/saharat-kosum/movie-shop-local-storage" target='_blank' rel="noopener noreferrer">Git hub</a>
+            </div>
+            <div className={`btn ${Data.theme ? 'black': 'white'}`}>
+              <a href="https://movie-shop-localstorage.netlify.app/" target='_blank' rel="noopener noreferrer">Demo</a>
+            </div>
+          </div>
+        </div>
+                <div className={`PortCard ${Data.theme ? 'Dark': 'Light'}`}>
+          <img className='portImage' alt='PortImage' src='https://images.unsplash.com/photo-1598791318878-10e76d178023?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80' />
+          <h2 className='Portname'>To do list (Local storage)</h2>
+          <div className='btncontainer'>
+            <div className={`btn ${Data.theme ? 'black': 'white'}`}>
+              <a href="https://github.com/saharat-kosum/to-do-list-local-storage" target='_blank' rel="noopener noreferrer">Git hub</a>
+            </div>
+            <div className={`btn ${Data.theme ? 'black': 'white'}`}>
+              <a href="https://myapp-to-do-list-localstorage.netlify.app/" target='_blank' rel="noopener noreferrer">Demo</a>
+            </div>
+          </div>
+        </div>
       </div>
       <div className='footer'></div>
     </div>
