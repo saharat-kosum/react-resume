@@ -3,6 +3,8 @@ import Header from './Body/Header';
 import Aboutme from './Body/Aboutme';
 import Portfolio from './Body/Portfolio';
 import { createContext, useState } from 'react';
+import 'bootstrap/dist/css/bootstrap.css';
+import Nav from './Nav/Nav'
 
 export const ThemeContext = createContext(null);
 
@@ -14,10 +16,13 @@ function App() {
 
   return (
     <ThemeContext.Provider value={{theme, toggleTheme}}>
-      <div className={theme ? 'Darkmode': ''}>
-        <Header/>
-        <Aboutme/>
-        <Portfolio/>
+      <div className={theme ? 'Darkmode': ''}> 
+        <Nav/>
+        <div className='container'>
+          <Header/>
+          <Aboutme/>
+          <Portfolio/>
+        </div>
       </div>
     </ThemeContext.Provider>
   );

@@ -29,10 +29,12 @@ h1{
 
 p{
     font-size: 1.3rem;
+    margin-bottom: unset !important;
 }
 
 a{
-    color: inherit;
+    color: inherit !important;
+    text-decoration: none !important;
 }
 
 .Darkmode{

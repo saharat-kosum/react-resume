@@ -10,7 +10,7 @@ function Nav() {
   const Data = useContext(ThemeContext);
 
   return (
-    <div>
+    <div className='mb-3 pe-3 border-bottom pt-3'>  
         <nav>
             <ul>
                 <li><a href="https://github.com/saharat-kosum" target='_blank' rel="noopener noreferrer"><GitHubIcon/></a></li>

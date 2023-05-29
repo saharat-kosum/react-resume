@@ -1,7 +1,3 @@
-.Portfolio h1{
-    margin: 30px auto 10px 25vh;
-}
-
 .portImage{
     width: 100%
 }
@@ -9,9 +5,6 @@
 .Portcontainer{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    width: 75%;
-    margin-left: 20vh;
-    gap: 1vh;
 }
 
 .PortCard{
@@ -44,7 +37,7 @@
     align-items: center;
 }
 
-.btn{
+.btnn{
     border-radius: 10px;
     width: 80px;
     min-height: 40px;
@@ -76,20 +69,11 @@
 @media (max-width: 1024px){
     .Portcontainer{
         grid-template-columns: repeat(2, 1fr);
-        margin-left: 7vh;
-        width: 85%;
-    }
-    .Portfolio h1{
-        margin: 30px auto 10px 10vh;
     }
 }
 
 @media (max-width: 600px){
     .Portcontainer{
         grid-template-columns: repeat(1, 1fr);
-        margin-left: 2vh;
-    }
-    .Portfolio h1{
-        margin: 30px auto 10px 5vh;
     }
 }

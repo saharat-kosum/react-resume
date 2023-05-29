@@ -10,7 +10,7 @@ const Aboutme = () => {
   return (
     <div>
       <div className='aboutme'>
-        <h1>About me</h1>
+        <h1 className='mt-4 ms-4'>About me</h1>
         <p className={`aboutmeDetail ${Data.theme ? 'Dark': 'Light'}`}>As a process engineer in the semiconductor industry, 
           I have developed strong problem-solving and process improvement skills. 
           In my spare time, I have taught myself a variety of front-end development technologies, 
@@ -20,24 +20,26 @@ const Aboutme = () => {
           I am a quick learner and enthusiastic about continuing to learn and grow as a developer.</p>
       </div>
       <div className='skill'>
-        <h1>Skills</h1>
-        <div className='fullstack'>
-          <div className={`frontend ${Data.theme ? 'Dark': 'Light'}`}>
-            <h2>Frontend Development</h2>
-            <div className='pcontainer'>
-              <p>HTML<br/><CircleIcon style={{ fontSize:"small" }}/><CircleIcon style={{ fontSize:"small" }}/><CircleIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/></p>
-              <p>CSS<br/><CircleIcon style={{ fontSize:"small" }}/><CircleIcon style={{ fontSize:"small" }}/><CircleIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/></p>
-              <p>JavaScript<br/><CircleIcon style={{ fontSize:"small" }}/><CircleIcon style={{ fontSize:"small" }}/><CircleIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/></p>
-              <p>React JS<br/><CircleIcon style={{ fontSize:"small" }}/><CircleIcon style={{ fontSize:"small" }}/><CircleIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/></p>
+        <h1 className='mt-5 ms-4 mb-3'>Skills</h1>
+        <div className="d-flex justify-content-center">
+          <div className='fullstack'>
+            <div className={`frontend p-4 ${Data.theme ? 'Dark': 'Light'}`}>
+              <h2>Frontend Development</h2>
+              <div className='pcontainer'>
+                <p>HTML<br/><CircleIcon style={{ fontSize:"small" }}/><CircleIcon style={{ fontSize:"small" }}/><CircleIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/></p>
+                <p>CSS<br/><CircleIcon style={{ fontSize:"small" }}/><CircleIcon style={{ fontSize:"small" }}/><CircleIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/></p>
+                <p>JavaScript<br/><CircleIcon style={{ fontSize:"small" }}/><CircleIcon style={{ fontSize:"small" }}/><CircleIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/></p>
+                <p>React JS<br/><CircleIcon style={{ fontSize:"small" }}/><CircleIcon style={{ fontSize:"small" }}/><CircleIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/></p>
+              </div>
             </div>
-          </div>
-          <div className={`backend ${Data.theme ? 'Dark': 'Light'}`}>
-            <h2>Backend Development</h2>
-            <div className='pcontainer'>
-              <p>Node JS<br/><CircleIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/></p>
-              <p>Python<br/><CircleIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/></p>
-              <p>MongoDB<br/><CircleIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/></p>
-              <p>SQL<br/><CircleIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/></p>
+            <div className={`backend p-4 ${Data.theme ? 'Dark': 'Light'}`}>
+              <h2>Backend Development</h2>
+              <div className='pcontainer'>
+                <p>Node JS<br/><CircleIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/></p>
+                <p>Python<br/><CircleIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/></p>
+                <p>MongoDB<br/><CircleIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/></p>
+                <p>SQL<br/><CircleIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/><RadioButtonUncheckedIcon style={{ fontSize:"small" }}/></p>
+              </div>
             </div>
           </div>
         </div>

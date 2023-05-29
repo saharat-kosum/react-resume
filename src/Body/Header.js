@@ -1,12 +1,10 @@
 import React from 'react'
 import './Header.css'
 import ME from './Profile2.jpg'
-import Nav from '../Nav/Nav'
 
 const Header = () => {
   return (
-    <div>
-        <Nav/>
+    <div className='d-flex justify-content-center'>
         <div className='textHeader'>
             <div className='introduce'>
                 <p style={{display: 'inline-block'}}>I'm </p><h1 className='myName'>Saharat Kosum</h1>
