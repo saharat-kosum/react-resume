@@ -23,21 +23,6 @@ const Portfolio = () => {
             </div>
           </div>
           <div className={`PortCard ${Data.theme ? 'Dark': 'Light'}`}>
-            <img className='portImage' alt='PortImage' src='https://images.unsplash.com/photo-1554224155-3a58922a22c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1441&q=80' />
-            <h2 className='Portname'>Income Record (Full Stack Project)</h2>
-            <div className='btncontainer'>
-              <div className={`btnn ${Data.theme ? 'black': 'white'}`}>
-                <a href="https://github.com/saharat-kosum/IncomeAndExpenseRecord-frontend" target='_blank' rel="noopener noreferrer">Git hub frontend</a>
-              </div>  
-              <div className={`btnn ${Data.theme ? 'black': 'white'}`}>
-                <a href="https://github.com/saharat-kosum/IncomeAndExpenseRecord-backend" target='_blank' rel="noopener noreferrer">Git hub backend</a>
-              </div>  
-              <div className={`btnn ${Data.theme ? 'black': 'white'}`}>
-                <a href="https://income-and-expense-record.netlify.app/" target='_blank' rel="noopener noreferrer">Demo</a>
-              </div>
-            </div>
-          </div>
-          <div className={`PortCard ${Data.theme ? 'Dark': 'Light'}`}>
             <img className='portImage' alt='PortImage' src='https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80  ' />
             <h2 className='Portname'>Movie Shop</h2>
             <div className='btncontainer'>
