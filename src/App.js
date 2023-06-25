@@ -4,6 +4,7 @@ import Aboutme from './Body/Aboutme';
 import Portfolio from './Body/Portfolio';
 import { createContext, useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
+import "bootstrap/dist/js/bootstrap.bundle.min";
 import Nav from './Nav/Nav'
 
 export const ThemeContext = createContext(null);
